@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    box-shadow: 0px 0px 10px rgb(214, 213, 213);
+    width: 280px;
+    margin: auto;
+}
+
+.topup{
+    display: flex;
+    background-color:  hsl(0, 0%, 100%);
+}
+
+.card {
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.img-box img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.devil {
+    /* padding: 12px; */
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.devil h2 {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+
+.devil p {
+ color: hsl(220, 15%, 55%);   
+}
